@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+* {
+    text-decoration: none;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+:root {
+    --primary-text: #e73100;
+    --primary-color:  #ef8b59;
+    --primary-blur:  #f3b190;
+    --background-color: #fafafa;
+    --white-color: #fff;
+    --text-color: #222;
+    --star-color: #efefef;
+    --text-blur: #a3a3a3;
+    --pink-background: #f9f3eb;
+}
+
+/* Class often used */
+.title-product {
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--text-color);
+}
+
+.desc-product {
+    font-size: 1.8rem;
+    font-weight: 350;
+    color: var(--text-blur);
+}
+
+.desc-product:after {
+    content: "";
+    display: block;
+    border-bottom: 1px solid var(--text-blur);
+    width: 60px;
+    margin: 30px auto 45px;
+}
+
+
+.start-vote {
+
+}
+
+.container-fix {
+    height: 100%;
+    width: 100%;
+}
